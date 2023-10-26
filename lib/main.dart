@@ -89,7 +89,11 @@ class _MyHomePageState extends State<MyHomePage> {
                         },
                       ),
                       MenuItemButton(
-                        child: const Text("Clima Tempo"),
+                        child: const Text(
+                          "Clima Tempo 3",
+                          textDirection: TextDirection.ltr,
+                          textAlign: TextAlign.start,
+                        ),
                         onPressed: () {
                           _openWebPage(
                               "https://github.com/umpedetiago/app_clima_tempo");
